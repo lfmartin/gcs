@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the gcs module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function gcs_install() {
+  \Drupal::configFactory()->getEditable('gcs.settings')
+    ->set('gcs.cx', '')
+    ->set('gcs.wildcard', 'google')
+    ->set('gcs.title', '')
+    ->save(TRUE);
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function gcs_uninstall() {
+  \Drupal::configFactory()->getEditable('gcs.settings')->delete();
+}

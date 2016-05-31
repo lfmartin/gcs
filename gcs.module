@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Defines Drupal hooks for gcs module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function gcs_theme($existing, $type, $theme, $path) {
+  return array(
+    'gcs' => array(
+      'variables' => array('title' => NULL),
+    ),
+  );
+}

@@ -1,0 +1,15 @@
+#gcs-results .gcsc-branding {
+  display: none;
+}
+#gcs-results input.gsc-search-button {
+  background: #aaaaaa url('https://www.google.com/uds/css/v2/search_box_icon.png') no-repeat 20px 5px;
+  border-color: #d9d9d9;
+  height: 26px;
+}
+#gcs-results .gsc-input-box .gsib_a {
+  padding-top: 0;
+}
+#gcs-results .gsc-input-box .gsib_b span {
+  position: relative;
+  top: 3px;
+}

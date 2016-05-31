@@ -1,0 +1,6 @@
+gcsLibrary:
+  css:
+    theme:
+      css/gcs.css: {}
+  js:
+    js/gcs.js: {}

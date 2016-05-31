@@ -1,0 +1,6 @@
+name: Google Custom Search
+type: module
+description: 'Use Google Custom Search to search your site and/or any other sites.'
+package: Custom
+core: 8.x
+hidden: false

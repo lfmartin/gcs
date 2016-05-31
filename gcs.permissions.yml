@@ -1,0 +1,9 @@
+administer gcs:
+  title: 'Administer Google Custom Search'
+  description: 'Administer the Google Custom Search settings'
+  restrict access: TRUE
+
+access gcs:
+  title: 'Access Google Custom Search'
+  description: 'Access Google Custom Search Form and Results'
+  restrict access: TRUE

@@ -1,0 +1,22 @@
+gcs_form:
+  path: '/gcs/search/'
+  defaults:
+    _form: '\Drupal\gcs\Form\GcsForm'
+    _title: 'Google Custom Search Form'
+  requirements:
+    _permission: 'access gcs'
+
+gcs_admin_form:
+  path: '/admin/config/search/gcs'
+  defaults:
+    _form: '\Drupal\gcs\Form\GcsAdminForm'
+    _title: 'Google Custom Search Settings'
+  requirements:
+    _permission: 'administer gcs'
+
+gcs_results:
+  path: '/search/{wild_card}/{keys}'
+  defaults:
+    _controller: '\Drupal\gcs\Controller\GcsController::buildResults'
+  requirements:
+    _permission: 'access gcs'
