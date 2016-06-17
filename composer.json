@@ -1,0 +1,19 @@
+{
+    "name": "drupal/gcs",
+    "description": "This module integrates the Custom Search Engines you have already configured through your Google Account with your Drupal website.",
+    "type": "drupal-module",
+    "homepage": "https://github.com/immanuelpaul/gcs",
+    "authors": [
+        {
+            "name": "Immanuel Paul",
+            "homepage": "https://github.com/immanuelpaul",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/immanuelpaul/gcs/issues",
+        "source": "https://github.com/immanuelpaul/gcs"
+    },
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev"
+}
